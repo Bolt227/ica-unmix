@@ -1,0 +1,23 @@
+Mixing matrix A:
+ [[0.955 0.871 0.302]
+ [0.9   0.324 0.811]
+ [0.423 0.904 0.679]] 
+cond(A) = 4.59
+Source kurtosis (non-Gaussianity): {'ambient_rain_wind': np.float64(1.01), 'instrumental_music': np.float64(-0.17), 'speech_synthetic_1_': np.float64(1.83)}
+cov(Z) ~ I? max |cov - I| = 4.882101389824811e-10
+FastICA (logcosh) converged in 5 iterations
+[ICA] |corr| per source: [0.9999 0.9996 0.9998]  SDR(dB): [35.45 30.9  33.97]  mean SDR: 33.44
+[PCA] |corr| per source: [0.6385 0.8018 0.7525]  SDR(dB): [2.27 4.47 3.63]  mean SDR: 3.46
+[ICA snr=None] |corr| per source: [0.9999 0.9996 0.9998]  SDR(dB): [35.45 30.9  33.97]  mean SDR: 33.44
+[PCA snr=None] |corr| per source: [0.6385 0.8018 0.7525]  SDR(dB): [2.27 4.47 3.63]  mean SDR: 3.46
+[ICA snr=30] |corr| per source: [0.9977 0.9978 0.9971]  SDR(dB): [23.4  23.62 22.31]  mean SDR: 23.11
+[PCA snr=30] |corr| per source: [0.6385 0.7999 0.7495]  SDR(dB): [2.27 4.43 3.58]  mean SDR: 3.43
+[ICA snr=20] |corr| per source: [0.9792 0.9823 0.9739]  SDR(dB): [13.85 14.56 12.88]  mean SDR: 13.76
+[PCA snr=20] |corr| per source: [0.6375 0.7822 0.7247]  SDR(dB): [2.27 4.11 3.23]  mean SDR: 3.20
+[ICA snr=10] |corr| per source: [0.8515 0.8603 0.8235]  SDR(dB): [5.61 5.85 4.92]  mean SDR: 5.46
+[PCA snr=10] |corr| per source: [0.6275 0.6516 0.564 ]  SDR(dB): [2.17 2.4  1.66]  mean SDR: 2.08
+[ICA snr=5] |corr| per source: [0.7051 0.6963 0.6716]  SDR(dB): [2.99 2.88 2.6 ]  mean SDR: 2.82
+[PCA snr=5] |corr| per source: [0.6049 0.4944 0.4034]  SDR(dB): [1.98 1.22 0.77]  mean SDR: 1.32
+[ICA snr=0] |corr| per source: [0.4841 0.4949 0.5242]  SDR(dB): [1.16 1.22 1.4 ]  mean SDR: 1.26
+[PCA snr=0] |corr| per source: [0.5464 0.3228 0.2501]  SDR(dB): [1.54 0.48 0.28]  mean SDR: 0.77
+Saved audio + plots to results
